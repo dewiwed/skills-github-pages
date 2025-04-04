@@ -1,0 +1,753 @@
+/* กำหนดค่าพื้นฐาน */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 0.1px; /* ลด padding ด้านบน */
+    margin-top: 0; /* เอา margin ออกถ้ามี */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #71baff; /* สีพื้นหลังข้างๆ */
+}
+h0 {
+    font-size: 14px;
+    color: #ffffff;
+}
+h2 {
+    margin-top: 0.1px; /* ลดระยะห่างจากด้านบน */
+    padding-top: 0; /* ลด padding ด้านบน */
+}
+.container {
+    width: 65%; /* ปรับขนาดของส่วนเนื้อหา */
+    max-width: 1200px; /* กำหนดขนาดสูงสุด */
+    background-color: #292f63; /* สีพื้นหลังของเนื้อหา */
+    padding: 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+/* ส่วนหัวเว็บไซต์ */
+header {
+    background-color: rgb(255, 255, 255); /* สีพื้นหลัง */
+    color: black;
+    padding: 50px;
+    margin: 0 auto; 
+    position: sticky;
+    width: 58.5%; /* ปรับขนาดของส่วนเนื้อหา */
+}
+
+
+.logo {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* เมนูนำทาง */
+nav {
+    background-color: #428dc6; /* สีพื้นหลังของแถบเมนู */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #00509e; /* สีเมื่อเมาส์ชี้ */
+    border-radius: 5px;
+}
+
+/* ส่วนเนื้อหาหลัก */
+main {
+    background-color: #ffffff; /* สีพื้นหลัง */
+    padding: 100px;
+    text-align: center;
+}
+
+main section {
+    margin-top: 20px;
+}
+main h2 {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+main h1 {
+    font-size: 20px;
+    color: #292f63;
+    margin-bottom: 5px;
+}
+.about-section {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+.about-section h1 {
+    font-size: 24px;
+    color: #292f63;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #292f63;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.about-section ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    list-style: none; /* เอาจุดออก */
+    padding-left: 0; /* ลบระยะห่างด้านซ้าย */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+/*ช่องขาว*/
+.students-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*หัวเรื่อง ข้อมูลนักเรียน*/
+.students-section h1 {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+/*ช่องว่างระหว่างช่องสมาชิก*/
+.student-detail {
+    margin-bottom: 20px;
+}
+/*ชื่อสมาชิก*/
+.student-detail summary {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2682de;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+/*สีตอนเม้าชี้*/
+.student-detail summary:hover {
+    color: #ffa435;
+}
+/*รูปสมาชิก*/
+.student-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    margin-right: 10px;
+    object-fit: cover;
+}
+/*เนื้อหาสมาชิก*/
+.student-detail p {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*ให้ข้อมูลย่อยชิดซ้ายทั้งหมด*/
+.student-detail p {
+    flex: 1; 
+    text-align: left; 
+}
+
+* ตั้งค่าพื้นฐานของหน้าเว็บ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* สีพื้นหลังของหน้า */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* กำหนดสไตล์ของกล่องข้อมูลนักเรียน */
+.student-list {
+    width: 60%;
+    background: #fffefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* รูปแบบของแต่ละชื่อ */
+.student {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์ */
+.student:hover {
+    transform: scale(1.03);
+    background-color: #d7e3fc;
+}
+
+/* สไตล์ของข้อความ */
+.student span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* กำหนดสไตล์พิเศษให้ชื่อแรก */
+.student:first-child {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+.slides {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    align-items: center;
+    width: 100%; /* ปรับให้กว้างเต็ม */
+}
+.slide {
+    display: none; /* ซ่อนทุกรูป */
+    width: 100%;
+    max-width: 600px; /* กำหนดขนาดสูงสุดของรูป */
+}
+.slide.active {
+    display: block; /* แสดงเฉพาะรูปที่ active */
+    margin: auto; 
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%; /* ปรับขนาดพื้นที่ด้านขวา */
+    height: 100vh;
+    background-image: url('images/bk7.jpg'); /* เปลี่ยนเป็น path รูปของคุณ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+.content {
+    display: none; /* ซ่อนทุกหน้า */
+}
+
+/* แสดงหน้า Home ตอนแรก */
+#home {
+    display: block;
+}
+
+
+/* กำหนดให้ Card มีระเบียบ */
+.student-detail {
+    width: 400px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* ทำให้ Card ขยายเล็กน้อยเมื่อ Hover */
+.student-detail:hover {
+    transform: scale(1.02);
+}
+
+/* กำหนดรูปแบบของ summary (หัวข้อ) */
+.student-detail summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* สไตล์รูปภาพ */
+.student-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* สไตล์ชื่อ */
+.student-name {
+    font-size: 16px;
+    color: #007bff;
+}
+
+/* ข้อมูลภายใน */
+.student-info {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.projects-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.projects-section h1 {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+/*ช่องว่างระหว่างช่องสมาชิก*/
+.projects-detail {
+    margin-bottom: 20px;
+}
+/*ชื่อสมาชิก*/
+.projects-detail summary {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2682de;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+/*สีตอนเม้าชี้*/
+.projects-detail summary:hover {
+    color: #ffa435;
+}
+/*รูปสมาชิก*/
+.projects-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    margin-right: 10px;
+    object-fit: cover;
+}
+/*เนื้อหาสมาชิก*/
+.projects-detail p {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*ให้ข้อมูลย่อยชิดซ้ายทั้งหมด*/
+.projects-detail p {
+    flex: 1; 
+    text-align: left; 
+}
+/* กำหนดสไตล์ของกล่องข้อมูลนักเรียน */
+.projects-list {
+    width: 60%;
+    background: #fffefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* รูปแบบของแต่ละชื่อ */
+.projects {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์ */
+.projects:hover {
+    transform: scale(1.03);
+    background-color: #d7e3fc;
+}
+
+/* สไตล์ของข้อความ */
+.projects span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* กำหนดสไตล์พิเศษให้ชื่อแรก */
+.projects:first-child {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+/* กำหนดให้ Card มีระเบียบ */
+.projects-detail {
+    width: 500px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px auto;
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* ทำให้ Card ขยายเล็กน้อยเมื่อ Hover */
+.projects-detail:hover {
+    transform: scale(1.02);
+}
+
+/* กำหนดรูปแบบของ summary (หัวข้อ) */
+.projects-detail summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* สไตล์รูปภาพ */
+.projects-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.projects-image1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 0px;
+    margin-right: 100px;
+}
+/* สไตล์ชื่อ */
+.projects-name {
+    font-size: 16px;
+    color: #007bff;
+}
+
+/* ข้อมูลภายใน */
+.projects-info {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Styles for tablets (iPads) */
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .student-detail, .projects-detail {
+        width: 90%;
+    }
+    .student-detail {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .student-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .student-name {
+        font-size: 14px;
+    }
+
+    .student-detail p {
+        font-size: 14px;
+    }
+
+    .home-detail p {
+        font-size: 12px;
+    }
+
+    .home-detail {
+        width: 90%;
+        padding: 15px;
+    }
+
+
+}
+
+/* Styles for smartphones */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 5px;
+    }
+
+    header {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .student-detail, .projects-detail, .home-detail {
+        width: 100%;
+    }
+
+    .student-image, .projects-image {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .projects-image1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .student-detail {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .student-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .student-name {
+        font-size: 12px;
+    }
+
+    .student-detail p {
+        font-size: 12px;
+    }
+
+    .student-detail summary {
+        font-size: 85%;
+    }
+
+    .home-detail p {
+        font-size: 12px;
+    }
+
+    .home-detail {
+        width: 90%;
+        padding: 15px;
+    }
+
+}
+
+.home-section h1 {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+/*ช่องว่างระหว่างช่องสมาชิก*/
+.home-detail {
+    margin-bottom: 20px;
+}
+/*ชื่อสมาชิก*/
+.home-detail summary {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2682de;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+/*สีตอนเม้าชี้*/
+.home-detail summary:hover {
+    color: #ffa435;
+}
+/*รูปสมาชิก*/
+.home-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    margin-right: 10px;
+    object-fit: cover;
+}
+/*เนื้อหาสมาชิก*/
+.home-detail p {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*ให้ข้อมูลย่อยชิดซ้ายทั้งหมด*/
+.home-detail p {
+    flex: 1; 
+    text-align: left; 
+}
+/* กำหนดสไตล์ของกล่องข้อมูลนักเรียน */
+.home-list {
+    width: 60%;
+    background: #fffefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* รูปแบบของแต่ละชื่อ */
+.home {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์ */
+.home:hover {
+    transform: scale(1.03);
+    background-color: #d7e3fc;
+}
+
+/* สไตล์ของข้อความ */
+.home span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* กำหนดสไตล์พิเศษให้ชื่อแรก */
+.home:first-child {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+/* กำหนดให้ Card มีระเบียบ */
+.home-detail {
+    width: 580px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* ทำให้ Card ขยายเล็กน้อยเมื่อ Hover */
+.home-detail:hover {
+    transform: scale(1.02);
+}
+
+/* กำหนดรูปแบบของ summary (หัวข้อ) */
+.home-detail summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* สไตล์รูปภาพ */
+.home-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.home-image1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 0px;
+    margin-right: 100px;
+}
+/* สไตล์ชื่อ */
+.home-name {
+    font-size: 16px;
+    color: #007bff;
+}
+
+/* ข้อมูลภายใน */
+.home-info {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.home-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
